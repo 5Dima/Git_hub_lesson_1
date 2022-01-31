@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Git_hub lesson 1", "Git_hub lesson 1\Git_hub lesson 1.vcxproj", "{304AB884-73D0-45EC-ABF2-AAD6315FE904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Debug|x64.ActiveCfg = Debug|x64
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Debug|x64.Build.0 = Debug|x64
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Debug|x86.ActiveCfg = Debug|Win32
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Debug|x86.Build.0 = Debug|Win32
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Release|x64.ActiveCfg = Release|x64
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Release|x64.Build.0 = Release|x64
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Release|x86.ActiveCfg = Release|Win32
+		{304AB884-73D0-45EC-ABF2-AAD6315FE904}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C756A05-FA43-49B7-A2B0-A665A90280E4}
+	EndGlobalSection
+EndGlobal
