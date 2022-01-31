@@ -13,17 +13,12 @@ public:
     }
 };
 
-class mnogo_kut {
+class figure {
     vector<point> v;
 public:
-    figure() {
-    }
-    figure(vector<point> v) {
-        this->v = v;
-    }
+    figure() { }
     virtual void set_figure(point p) = 0;
     virtual void print_figure() = 0;
-
 };
 
 
@@ -90,21 +85,45 @@ public:
 
 
 class work_figure {
-
 public:
-
-    void print() {
-
+    void print(figure * f) {
+        f->print_figure();
     }
-
-
 };
 
 
 int main() {
-
-
-
+    romb *r=new romb;
+    kvadrat *k=new kvadrat;
+    mnogo_kut *mk=new mnogo_kut;
+    prymokutnuk *p=new prymokutnuk;
+    work_figure w;
+    r->set_figure(point(12, -4));
+    r->set_figure(point(7, 2));
+    r->set_figure(point(2, 5));
+    cout << "\tROMB\n";
+    w.print(r);
+    
+    cout << "\tKVADRAT\n";
+    k->set_figure(point(3, 7));
+    k->set_figure(point(9, 0));
+    k->set_figure(point(-6, -1));
+    k->set_figure(point(8, 4));
+    w.print(k);
+    
+    cout << "\MNOGO KUT\n";
+    mk->set_figure(point(13, 27));
+    mk->set_figure(point(11, 0));
+    mk->set_figure(point(-3, 6));
+    mk->set_figure(point(84, 34));
+    w.print(mk);
+    
+    cout << "\tPRYMOKUTNUK\n";
+    p->set_figure(point(513, 427));
+   p->set_figure(point(151, 0));
+    p->set_figure(point(-73, 46));
+   p->set_figure(point(854, 324));
+    w.print(p);
 
 
 
