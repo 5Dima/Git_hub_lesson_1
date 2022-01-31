@@ -13,7 +13,7 @@ public:
     }
 };
 
-class figure {
+class mnogo_kut {
     vector<point> v;
 public:
     figure() {
@@ -27,10 +27,86 @@ public:
 };
 
 
+class kvadrat :public figure {
+    vector<point> v;
+public:
+    kvadrat() {};
+    void set_figure(point p) override {
+        v.push_back(p);
+    }
+    void print_figure() override {
+        cout << string(30, '=') << "\n";
+        for (auto it : v)it.print();
+        cout << string(30, '=') << "\n";
+    }
 
+};
+
+
+class prymokutnuk :public figure {
+    vector<point> v;
+public:
+    prymokutnuk() {};
+    void set_figure(point p) override {
+        v.push_back(p);
+    }
+    void print_figure() override {
+        cout << string(30, '=') << "\n";
+        for (auto it : v)it.print();
+        cout << string(30, '=') << "\n";
+    }
+
+};
+
+class romb :public figure {
+    vector<point> v;
+public:
+    romb() {};
+    void set_figure(point p) override {
+        v.push_back(p);
+    }
+    void print_figure() override {
+        cout << string(30, '=') << "\n";
+        for (auto it : v)it.print();
+        cout << string(30, '=') << "\n";
+    }
+
+};
+
+class mnogo_kut :public figure {
+    vector<point> v;
+public:
+    mnogo_kut() {};
+    void set_figure(point p) override {
+        v.push_back(p);
+    }
+    void print_figure() override {
+        cout << string(30, '=') << "\n";
+        for (auto it : v)it.print();
+        cout << string(30, '=') << "\n";
+    }
+
+};
+
+
+class work_figure {
+
+public:
+
+    void print() {
+
+    }
+
+
+};
 
 
 int main() {
+
+
+
+
+
 
 
     return 0;
